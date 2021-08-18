@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>WTLab3</title>
+<style>
+body {
+  background-image: url('https://image.shutterstock.com/image-photo/book-stack-on-wood-desk-260nw-570458902.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+h1{
+text-align:center;
+padding:20px;
+}
+form {
+margin-left:50px;
+padding:8px;
+}
+label{
+padding:8px;
+margin-top:50px;
+}
+input[type=text] {
+padding:8px;
+}
+input[type=password] {
+padding:8px;
+}
+</style>
+</head>
+<body>
+<h1>Form for book</h1>
+<form action="/thanks.html" target="_blank">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="First Name.."><br><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Last Name.."><br><br>
+  <label for="lname">Address:</label><br>
+  <textarea rows="5" cols="30" placeholder="Address.."></textarea><br><br>
+  <label>Gender</label><br>
+  <input type="radio" name="fav_language" value="Male">
+  <label for="male">Male</label>
+  <input type="radio" name="fav_language" value="Female">
+  <label for="female">Female</label><br><br>
+  <label>Books:</label><br>
+  <input type="checkbox" id="book1" name="book1" value="A TIME TO KILL BY JOHN GRISHAM">
+  <label for="book1">A TIME TO KILL BY JOHN GRISHAM</label><br>
+  <input type="checkbox" id="book2" name="book2" value="THE HOUSE OF MIRTH BY EDITH WHARTON">
+  <label for="book2">THE HOUSE OF MIRTH BY EDITH WHARTON</label><br>
+  <input type="checkbox" id="book3" name="book3" value="EAST OF EDEN BY JOHN STEINBECK">
+  <label for="book3">EAST OF EDEN BY JOHN STEINBECK</label><br><br>
+  <label for="date">Date to be delievered:</label>
+  <input type="date" id="date" name="date"><br><br>
+  <label>Mode of Payment:</label>
+  <select>
+    <option value="cash">Cash on delivery</option>
+    <option value="card">Debit/credit Card</option>
+    <option value="Gpay">Gpay</option>
+  </select><br><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd" placeholder="Password.."><br><br>
+  <input type="button" onclick="alert('Thank You!')" value="BUY!">
+</form>
+</body>
+</html>
