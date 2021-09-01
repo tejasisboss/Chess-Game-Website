@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>Home</title>
+<style>
+body {
+  background-image: url('https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+form {
+margin-left:50px;
+padding:8px;
+}
+.loca,p{
+margin-top:50px;
+margin-left:500px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid;
+  text-align: center;
+  padding: 8px;
+}
+</style>
+</head>
+<body>
+<label class="loca">Click the button to get your coordinates.</label><button onclick="getLocation()">Click</button>
+<p id="demo"></p><br><br>
+<table style="width:100%">
+<caption>States in India to travel</caption>
+<tr>
+<th>Name</th>
+<th>Video</th>
+<th>Visiting Places</th>
+<th>Image Link</th>
+</tr>
+<tr>
+<td>Karnataka</td>
+<td>
+<video width="320" height="240" controls>
+<source src="ka.mp4" type="video/mp4">
+Your browser does not support the video element.
+</video>
+</td>
+<td>
+<ul>
+<li>Coorg</li>
+<li>Mysore</li>
+<li>Hampi</li>
+<li>click the image to find more..</li>
+</ul>
+</td>
+<td><img usemap="#ka" src="https://thumbs.dreamstime.com/b/karnataka-map-colored-flag-indian-state-karnataka-state-southwest-india-arabian-sea-coastlines-capital-179118135.jpg" 
+alt="Karnataka" style ="width:42px;height:42px;"></td>
+</tr>
+<tr>
+<td>Tamil Nadu</td>
+<td>
+<video width="320" height="240" controls>
+<source src="tn.mp4" type="video/mp4">
+Your browser does not support the video element.
+</video>
+</td>
+<td>
+<ul>
+<li>Chennai</li>
+<li>Pondicherry</li>
+<li>Mudumalai</li>
+<li>click the image to find more..</li>
+</ul>
+</td>
+<td><img usemap="#tn" src="https://i.pinimg.com/originals/4e/e9/c0/4ee9c0fbdfe8d8c4a0d3f862bcff37d9.png" 
+alt="Tamil Nadu" style ="width:42px;height:42px;"></td>
+</tr>
+<tr>
+<td>Maharashtra</td>
+<td>
+<video width="320" height="240" controls>
+<source src="mh.mp4" type="video/mp4">
+Your browser does not support the video element.
+</video>
+</td>
+<td>
+<ul>
+<li>Ajanta and Ellora Caves</li>
+<li>Mahabaleshwar</li>
+<li>Panchgani</li>
+<li>click the image to find more..</li>
+</ul>
+</td>
+<td><img usemap="#mh" src="https://www.mapsofindia.com/maps/maharashtra/maharashtra-district-map.jpg" 
+alt="Maharashtra" style ="width:42px;height:42px;"></td>
+</tr>
+<tr>
+<td>Uttar Pradesh</td>
+<td>
+<video width="320" height="240" controls>
+<source src="up.mp4" type="video/mp4">
+Your browser does not support the video element.
+</video>
+</td>
+<td>
+<ul>
+<li>Agra</li>
+<li>Varanasi</li>
+<li>Vrindavan</li>
+<li>click the image to find more..</li>
+</ul>
+</td>
+<td><img usemap="#up" src="https://lh3.googleusercontent.com/proxy/4pL1GZ9I_HBz9-DpphgPhUUKJPDIBDZAePGIbMwZTMJviMZYvfMQGZbJm6D8QS_36SQ1unMB2apuYODpuu7p4RuF6-VtCsV6cwpJIPfRFXXNLOn4f_1-" 
+alt="Uttar Pradesh" style ="width:42px;height:42px;"></td>
+</tr>
+</table>
+<map name="ka">
+<area shape="rect" coords="0,0,800,800" alt="Karnataka" href="https://www.thrillophilia.com/destinations/karnataka/places-to-visit">
+</map>
+<map name="tn">
+<area shape="rect" coords="0,0,483,599" alt="Tamil Nadu" href="https://www.holidify.com/state/tamil-nadu/top-destinations-places-to-visit.html">
+</map>
+<map name="mh">
+<area shape="rect" coords="0,0,800,627" alt="Maharashtra" href="https://www.holidify.com/state/maharashtra-goa/top-destinations-places-to-visit.html">
+</map>
+<map name="up">
+<area shape="rect" coords="0,0,500,509" alt="Uttar Pradesh" href="https://www.holidify.com/state/uttar-pradesh/top-destinations-places-to-visit.html">
+</map>
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "latitude = "+position.coords.latitude;
+  x.innerHTML += "<br />"
+  x.innerHTML += "longitude = "+position.coords.longitude
+}
+</script>
+</body>
+</html>
