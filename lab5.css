@@ -1,0 +1,68 @@
+body {
+  background-image: url('https://image.shutterstock.com/image-photo/book-stack-on-wood-desk-260nw-570458902.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+h1{
+text-align:center;
+padding:20px;
+}
+form {
+margin-left:50px;
+padding:8px;
+}
+label{
+padding:8px;
+margin-top:50px;
+}
+input[type=text] {
+padding:8px;
+}
+input[type=password] {
+padding:8px;
+}
+.loca,p{
+margin-left:50px;
+}
+a.back{
+margin-left:50px;
+}
+a.back:link {
+  color: red;
+  text-decoration: none;
+}
+a.back:visited {
+  color: green;
+}
+
+a.back:hover {
+  color: purple;
+  text-decoration: underline;
+}
+a.back:active {
+  color: blue;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+a.active {
+  background-color: green;
+}
