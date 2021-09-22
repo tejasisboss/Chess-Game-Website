@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT games (head,game+)>
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT game (number,name,desc,cost)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT desc (#PCDATA)>
