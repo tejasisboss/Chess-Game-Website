@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<games>
+    <game>
+        <number>#1</number>
+        <name>Prince Of Persia</name>
+        <desc>Prince of Persia is a video game franchise created by Jordan Mechner. It is built around a series of action-adventure games focused on various incarnations of the eponymous Prince from ancient and medieval Iran. The games have been developed and published by several different companies.</desc>
+        <cost>Cost: Rs.1200</cost>
+    </game>
+    <game>
+        <number>#2</number>
+        <name>Genshin Impact</name>
+        <desc>Genshin Impact is an action role-playing game developed and published by Chinese game house miHoYo. It was released for Microsoft Windows, PlayStation 4, Android, and iOS in September 2020, for PlayStation 5 in April 2021, and, as of September 2021, is planned for future release on Nintendo Switch.</desc>
+        <cost>Cost: Free</cost>
+    </game>
+    <game>
+        <number>#3</number>
+        <name>Valorant</name>
+        <desc>Valorant is a free-to-play first-person hero shooter developed and published by Riot Games, for Microsoft Windows. First teased under the codename Project A in October 2019, the game began a closed beta period with limited access on April 7, 2020, followed by an official release on June 2, 2020.</desc>
+        <cost>Cost: Free</cost>
+    </game>
+    <game>
+        <number>#4</number>
+        <name>Apex Legends</name>
+        <desc>Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts. It was released for Microsoft Windows, PlayStation 4, and Xbox One in February 2019, and for Nintendo Switch in March 2021.</desc>
+        <cost>Cost: Free</cost>
+    </game>
+    <game>
+        <number>#5</number>
+        <name>Rocket League</name>
+        <desc>Rocket League is a vehicular soccer video game developed and published by Psyonix. The game was first released for Microsoft Windows and PlayStation 4 in July 2015, with ports for Xbox One and Nintendo Switch being released later on. </desc>
+        <cost>Cost: Free</cost>
+    </game>
+</games>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+
+<fo:layout-master-set>
+  <fo:simple-page-master master-name="A4">
+    <fo:region-body />
+  </fo:simple-page-master>
+</fo:layout-master-set>
+
+<fo:page-sequence master-reference="A4">
+  <fo:flow flow-name="xsl-region-body">
+    <fo:block
+    font-size="14pt" font-family="verdana" color="red"
+    space-before="5mm" space-after="5mm">
+      Best Games
+    </fo:block>
+    <fo:block
+    font-size="12pt" font-family="verdana"
+    space-before="5mm" space-after="5mm">
+      Prince Of Persia
+    </fo:block>
+    <fo:block
+    text-indent="5mm"
+    font-family="verdana" font-size="12pt"
+    space-before="5mm" space-after="5mm">
+    Prince of Persia is a video game franchise created by Jordan Mechner. It is built around a series of action-adventure games focused on various incarnations of the 
+    eponymous Prince from ancient and medieval Iran. The games have been developed and published by several different companies.
+    </fo:block>
+  </fo:flow>
+</fo:page-sequence>
+</fo:root>
