@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="register-banner">
+            <h1>Registration Form</h1>
+        </div>
+
+        <form name="registration-form">
+            <div class="form-control">
+                <label>Full Name</label>
+                <input type="text" name="name"
+                  placeholder="Full Name" />
+                <div class="error hide">Name is required</div>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input
+                  name="email"
+                  placeholder="e.g. your_email@example.com"
+                />
+                <div class="error hide">Email is invalid</div>
+              </div>
+            <div class="form-control">
+                <label>College/University</label>
+                <input name="college"
+                  placeholder="e.g. Christ(Deemed to be University)" />
+                <div class="error hide">Name is required</div>
+            </div>
+            <div class="form-control">
+                <label>Branch</label>
+                <input name="branch"
+                  placeholder="e.g. Computer Science" />
+                <div class="error hide">Branch is required</div>
+            </div>
+            <div class="form-control">
+                <label>State</label>
+                <input name="state"
+                  placeholder="e.g. Karnataka" />
+                <div class="error hide">State is required</div>
+            </div>
+            <div class="form-control">
+                <label>Address</label>
+                <textarea name="address"></textarea>
+                <div class="error hide">Address is required</div>
+            </div>
+            <div class="form-control">
+                <label>Age</label>
+                <input type="number" name="age"
+                  placeholder="e.g. 21" />
+                <div class="error hide">Age is required</div>
+            </div>
+            <div class="form-control">
+                <label>Phone</label>
+                <input type="number" name="phone"
+                 placeholder="e.g. 0123456789" />
+                <div class="error hide">Phone is invalid</div>
+            </div>
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" name="username"
+                  placeholder="Enter Username" />
+                <div class="error hide">Username is required</div>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" name="state"
+                placeholder="Enter Password" />
+                <div class="error hide">Password is required</div>
+            </div>
+
+            <hr />
+    
+          <button type="submit">SUBMIT</button>
+    </body>
+</html>

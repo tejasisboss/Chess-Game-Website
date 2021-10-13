@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="cat2.css"?>
+<christ>
+    <cs>
+        <stu-name>Tejas</stu-name>
+        <stu-branch>Computer</stu-branch>
+        <stu-college>Christ(Deemed to be University)</stu-college>
+        <stu-email>tejas@cs.christuniversity.in</stu-email>
+    </cs>
+    <cs>
+        <stu-name>Sajet</stu-name>
+        <stu-branch>Computer</stu-branch>
+        <stu-college>Christ(Deemed to be University)</stu-college>
+        <stu-email>sajet@cs.christuniversity.in</stu-email>
+    </cs>
+    <cs>
+        <stu-name>Rahul</stu-name>
+        <stu-branch>Computer</stu-branch>
+        <stu-college>Christ(Deemed to be University)</stu-college>
+        <stu-email>rahul@cs.christuniversity.in</stu-email>
+    </cs>
+</christ>

@@ -1,0 +1,32 @@
+christ{
+	display: block;
+	margin-top: 10px;
+}
+
+stu-name{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+	color: red;
+}
+
+stu-branch{
+	font-weight: bold;
+	font-size: 10px;
+	color: rgb(255, 81, 0);
+}
+
+stu-college{
+    display: block;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: rgb(76, 0, 255);
+}
+
+stu-email{
+    display: block;
+	margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+	color: rgb(255, 0, 179);
+}
